@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Full Container Styling Starts */
+#container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#total-tasks {
+  margin-bottom: 20px;
+  font-size: 13px;
+  margin-left: 2px;
+  color: gray;
+}
+
+.fa-clipboard-list {
+  display: flex;
+  font-size: 1.3rem;
+  position: absolute;
+  margin: 10px;
+}
+
+.fa-plus {
+  font-size: 1.3rem;
+}
+
+#add-task-button {
+  position: relative;
+  right: -450px;
+  padding: -1px 15px;
+  top: -35px;
+  height: 21px;
+  width: 25px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Input Box Styling */
+.add-task {
+  width: 100%;
+  outline: none;
+  font-size: 18px;
+  padding: 11px;
+  border: 2px solid #dddddd;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+/* Full Container Styling Ends */
+
+/* Delete Button Styling Starts */
+.delete {
+  height: 28px;
+  padding: 5px 0px;
+  border-radius: 3px;
+}
+.delete:hover {
+  background: #f2f2f2;
+  cursor: pointer;
+}
+
+/* Delete Button Styling Ends */
+
+/* Heading Style */
+h1 {
+  text-align: center;
+}
+
+/* Table Styling Starts */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 500px;
+  margin: 0 auto;
+}
+
+td,
+th {
+  border: 2px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #a6a2a2;
+}
+
+tbody td:hover {
+  background: #e4e1e6;
+}
+
+/* Table Styling Ends */
